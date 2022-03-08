@@ -22,3 +22,6 @@ a {
 .social-icon {
     height: 50px;
 }
+p {
+    font-weight: bold;
+}
