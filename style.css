@@ -1,5 +1,6 @@
 h1 {
     font-size: 5em;
+    color:#A5A58D
 }
 
 #profile_pic {
@@ -7,11 +8,14 @@ h1 {
 }
 
 body {
-    color:thistle;
+    background-color: #FFF1E6;
+    color:#DDBEA9;
 }
-
+ul {
+    color:#B7B7A4
+}
 a {
-    color:tomato;
+    color:#CB997E;
     text-decoration: none;
 }
 
