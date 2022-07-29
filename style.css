@@ -1,15 +1,6 @@
-:root {
-    --lightest-green: #F7F7F2;
-    --lighter-green: #E4E6C3;
-    --green: #899878;
-    --grey: #222725;
-    --black: #121113;
-}
 h1 {
-
-    padding: 25px;
     font-size: 5em;
-    color:var(--green);
+    color:#A5A58D
 }
 
 #profile_pic {
@@ -17,16 +8,11 @@ h1 {
 }
 
 body {
-    background: var(--bg);
-    color: var(--fontColor);
-    text-align: center;
+    background-color: #FFF1E6;
+    color:#DDBEA9;
 }
-
 ul {
-    color:var(--listColor);
-    display: inline-block;
-    text-align: left;
-    padding-left: 0%;
+    color:#B7B7A4
 }
 a {
     color:#CB997E;
@@ -38,31 +24,4 @@ a {
 }
 p {
     font-weight: bold;
-}
-
-.light-theme {
-    --bg: var(--lightest-green);
-    --fontColor: var(--grey);
-    --btnFontColor: var(--lighter-green);
-    --btnBg: var(--green);
-    --listColor: var(--black);
-}
-
-.dark-theme {
-    --bg: var(--grey);
-    --fontColor: var(--lightest-green);
-    --btnFontColor: var(--green);
-    --btnBg: var(--lighter-green);
-    --listColor: var(--lighter-green);
-}
-.color-btn {
-    position: absolute;
-    top: 20px;
-    left: 250px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    border: none; 
-    color: var(--btnFontColor);
-    background-color: var(--btnBg);
 }
